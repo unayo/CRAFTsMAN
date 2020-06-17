@@ -1,0 +1,127 @@
+/* BANNER */
+.banner {
+  height: 100vh;
+}
+
+@media (max-width: 767px) {
+  .banner {
+    /*mobile*/
+  }
+  .banner .text-muted {
+    color: #FFFFFF99 !important;
+  }
+}
+
+.banner .banner-content {
+  height: calc(100vh - 72px);
+}
+
+.banner .banner-img {
+  background: url(.././images/banner.jpg) center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+/* intro */
+.intro .intro-img {
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.intro .intro-content {
+  padding: 0 95px;
+}
+
+.intro .intro-content p {
+  color: #0000009A;
+}
+
+@media (max-width: 767px) {
+  .intro {
+    /*mobile*/
+  }
+  .intro .intro-content {
+    padding: 16px 15px 24px 15px;
+  }
+}
+
+/*about*/
+.about {
+  background: url(.././images/about.jpg) center center no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 150px 0;
+}
+
+@media (max-width: 767px) {
+  /*mobile*/
+  .about {
+    padding: 0;
+  }
+}
+
+/* swiper.js*/
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-container .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  width: 350px !important;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-container .swiper-slide .swiper-img {
+  height: 350px;
+}
+
+/* swiper card*/
+.card {
+  border: 1px solid rgba(255, 255, 255, 0);
+  margin: 72px 0;
+}
+
+.card .card-img-top {
+  border-radius: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card .proimg-size0 {
+  height: 350px;
+}
+
+.card .card-body {
+  padding: 8px 0;
+}
+
+.card .card-body .body-title, .card .card-body .body-sale {
+  text-align: left;
+}
+
+.card .card-body .body-price {
+  text-decoration: line-through;
+  color: #00000062;
+}
+
+.card .card-body .body-onsale {
+  top: 16px;
+  right: 16px;
+}
+
+/*# sourceMappingURL=index.css.map */

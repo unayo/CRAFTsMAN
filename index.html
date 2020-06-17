@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CRAFTsMAN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+        
+    <!-- js-offcanvas -->
+    <link href="https://unpkg.com/js-offcanvas@1.2.8/dist/_css/prefixed/js-offcanvas.css" rel="stylesheet">
+
+        
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <nav class="navbar navbar-expand-lg navbar-dark container">
+      <button class="navbar-toggler js-offcanvas-trigger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand text-dark text-md-white" href="index.html">CRAFTsMAN</a>
+      <!-- menu -->
+      <ul class="navbar-nav ml-auto d-none d-md-flex">
+        <li class="nav-link">
+          <a class="text-white" href="product.html">Product</a>
+        </li>
+        <li class="nav-link">
+          <a class="text-white" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-link">
+          <a class="text-white" href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+
+      <!-- offcanvas -->
+      <aside class="js-offcanvas" id="off-canvas-id">
+        <ul class="list-style-none px-2">
+          <li class="d-flex justify-content-between">
+            <button class="arrow-back navbar-toggler js-offcanvas-close js-offcanvas-trigger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="material-icons text-dark">arrow_back</span>
+            </button>
+            <a href="#"><span class="material-icons text-dark p-3">local_grocery_store</span></a>
+          </li>
+          <li class="nav-items nav-link">
+            <a class="text-dark" href="index.html"><h4>Home</h4></a>
+          </li>
+          <li class="nav-items nav-link accordion" id="accordionExample">
+            <div class="card m-0">
+              <div class="card-header d-flex justify-content-between bg-white p-0">
+                <a class="text-dark" href="product.html"><h4>Product</h4></a>
+                <button class="btn btn-link p-0" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <span class="material-icons text-dark">expand_more</span>
+                </button>
+              </div>
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <ul class="card-body text-muted list-style-none pl-0">
+                  <li>ALL<span>24</span></li>
+                  <li>BOWL<span>10</span></li>
+                  <li>CUP<span>8</span></li>
+                  <li>PLATE<span>3</span></li>
+                  <li>VASE<span>3</span></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="nav-items nav-link">
+            <a class="text-dark" href="blog.html"><h4>Blog</h4></a>
+          </li>
+          <li class="nav-items nav-link">
+            <a class="text-dark" href="contact.html"><h4>Contact</h4></a>
+          </li>
+        </ul>
+      </aside>
+
+      <!-- 側選單 end -->
+
+      <a href="#"><span class="material-icons text-white">local_grocery_store</span></a>
+    </nav>
+     <!-- HEADER END -->
+
+     <!-- CONTENT -->
+    
+<main>
+  <!-- BANNER -->
+  <section class="banner container-fluid">   
+    <div class="banner-content row align-items-center">
+      <!-- content -->
+      <div class="container">
+        <div class="row">
+          <div class="text-center text-md-left col-md-5">
+            <h2 class="text-md-white">Enjoy Your<br>Minimalist Lifestyle.</h2>
+            <h4 class="text-muted mt-4 mb-5">The best crafts in Taiwan. Get your free shipping on the first order.</h4>
+            <button class="btn btn-primary btn-lg" type="submit">Shop now</button>
+          </div>
+        </div>
+      </div>
+      <!-- image -->
+      <div class="banner-img position-absolute col-md-6"></div>
+  </section>
+  <section class="intro">
+    <ul class="container">
+      <li class="intro-special row align-items-center mb-5">
+        <img class="intro-img col col-md-6" src="./assets/images/intro-1.jpg" alt="image">
+        <div class="intro-content col col-md-6">
+          <h4 class="mb-3">Special Clays</h4>
+          <p>A general body formulation for contemporary earthenware is 25% kaolin, 25% ball clay, 35% quartz and 15% feldspar.</p>
+          <a href="">learn more</a>
+        </div>
+      </li>
+      <li class="intro-special row align-items-center mb-5">
+        <img class="intro-img order-md-2 col col-md-6" src="./assets/images/intro-2.jpg" alt="image">
+        <div class="intro-content col col-md-6">
+          <h4 class="mb-3">Less is more</h4>
+          <p>Trimming pottery can transform a weighty Earth-bound pot into one that is a pleasure to hold, look at, and use.</p>
+          <a href="">learn more</a>
+        </div>
+      </li>
+      <li class="intro-special row align-items-center mb-5">
+        <img class="intro-img col col-md-6" src="./assets/images/intro-3.jpg" alt="image">
+        <div class="intro-content col col-md-6">
+          <h4 class="mb-3">Marvelous Detail</h4>
+          <p>In Craftsman, the art director, working with marketers, develops or creates an idea of a new creation.</p>
+          <a href="">learn more</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <!-- about -->
+  <section class="about">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <h3 class="text-white col-12 col-md-4 pb-5 pb-md-0 my-5 my-md-0">“I want to make the life more simple by crafts.”</h3>
+        <div class="col-12 col-md-4 pt-5 pt-md-0 my-4 my-md-0">
+          <p class="small-font text-secondary mb-0">Art Director</p>
+          <h4 class="text-white mb-3">hsiao-Ming Chen</h4>
+          <div class="social d-flex">
+            <a class="mr-4" href="#">Instagram</a>
+            <a href="#">Twitter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about end-->
+  <!-- Swiper -->
+  <section class="">
+  <div class="swiper-container">
+    <ul class="swiper-wrapper">
+      <li class="swiper-slide">
+        <div class="card">
+          <img src="./assets/images/pro1.jpg" class="proimg-size0 card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="body-title pb-0">Tatami Cup</h5>
+            <div class="d-flex">
+              <p class="body-sale pr-2 pb-0">NT$1,080</p>
+              <p class="body-price pb-0">NT$1,200</p>  
+            </div>
+            <h6 class="body-onsale small-font position-absolute text-white">ON SALE</h6>
+          </div>
+        </div>        
+      </li>
+      <li class="swiper-slide">
+        <div class="card">
+          <img src="./assets/images/pro2.jpg" class="proimg-size0 card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="body-title pb-0">Couple Collection</h5>
+            <p class="body-sale pr-2 pb-0">NT$2,800</p>
+          </div>
+        </div>   
+      </li>
+      <li class="swiper-slide">
+        <div class="card">
+          <img src="./assets/images/pro3.jpg" class="proimg-size0 card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="body-title pb-0">Brotherhood Vase</h5>
+            <p class="body-sale pr-2 pb-0">NT$4,800</p>
+          </div>
+        </div>
+      </li>
+      <li class="swiper-slide">
+        <div class="card">
+          <img src="./assets/images/pro4.jpg" class="proimg-size0 card-img-top" alt="product">
+          <div class="card-body">
+            <h5 class="body-title pb-0">Baifan Bowl</h5>
+            <p class="body-sale pr-2 pb-0">NT$1,800</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+  <!-- Swiper end-->
+  </section>
+</main>
+     <!-- CONTENT END -->
+    
+     <!-- FOOTER -->
+    <footer class="footer bg-dark pb-3 pb-md-0">
+      <div class="footer-contact">
+        <div class="container">
+          <h2 class="text-white col col-md-5">
+            Subscribe for news and special offers!
+            <div class="input-group mt-5">
+              <input type="text" class="form-control" placeholder="Your email address" aria-label="Recipient's email" aria-describedby="button-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="button" id="button-addon2">Subscribe</button>
+              </div>
+            </div>            
+          </h2>
+        </div>
+      </div>
+      <div class="container d-md-flex justify-content-between align-items-center">
+        <div class="footer-logo d-md-flex align-items-center mt-3 mt-md-0">
+          <a class="navbar-brand text-white mr-3" href="index.html">CRAFTsMAN</a>
+          <p class="small-font text-secondary m-0 d-none d-md-block">© 2020. All Rights Reserved.</p>
+        </div>
+        <ul class="list-style-none small-font d-md-flex m-0 pl-0">
+          <li class="mr-md-5 mb-3 mb-md-0 mt-5 mt-md-0"><a class="text-secondary" href="#">Purchase Policy</a></li>
+          <li class="mr-md-5 mb-3 mb-md-0"><a class="text-secondary" href="#">Privacy Policy</a></li>
+          <li class="mb-5 mb-md-0"><a class="text-secondary" href="#">Terms & Conditions</a></li>
+          <li class="small-font text-secondary m-0 d-block d-md-none"><p class="m-0">© 2020. All Rights Reserved.</p></li>
+        </ul>
+      </div>
+    </footer>
+     <!-- FOOTER END-->
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+
+    <!-- js-offcanvas -->
+    <script src="https://unpkg.com/js-offcanvas@1.2.8/dist/_js/js-offcanvas.pkgd.min.js"></script>     
+  </body>
+
+</html>
